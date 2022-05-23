@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+   
+  padding: 0;
+}
+  
+body {
+  background-color: rgb(221, 221, 221);
+}  
+
+#change {
+  width: 150px;
+}
+
+header div:first-child {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 800;
+  height: 50px;
+  color: rgb(40, 176, 221);
+  background-color: #fff;
+}  
+ 
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+}  
+
+header div:last-child {
+  height: 70px;
+  background-color: rgb(40, 176, 221);
+}  
+
+#grid {
+  margin: 0 auto;
+
+  width: calc(100% - 50px);
+  gap: 100px;
+  padding: 20px;
+}
+
+.iconCard {
+  background-color: #fff;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  width: 250px;
+  
+
+  border-radius: 20px;
+  filter: drop-shadow(1px 1px 1px gray);
+}  
+
+.blu {
+  color: blue;
+  font-size: 40px;
+
+}
+
+.orange {
+  color: orange;
+  font-size: 40px;;
+ 
+}
+
+.green {
+  color: green;
+  font-size: 40px;
+}
